@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+html { 
+	background: url("sample_bg.svg") no-repeat center center fixed; 
+  	background-size: cover;
+}	
+
+h1 {
+  	font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+  	color: #2b2b2b;
+  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+a:link {
+    color: white;
+	text-align: center;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkorange;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin: 0 0 25px 0;
+}
+
+.sidepics {
+	margin-left: 100px;
+}
+
+.sidepics:hover {
+	outline: 3px solid orange;
+}
+
+#sidebar {
+	display: table;
+    position: fixed;
+	top: 0;
+	left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+	vertical-align: top;
+}
+
+#inner {
+	margin: 0 0 3px 0;
+}
+
+#header {
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: -5%;
+	margin-bottom: -5%;
+	width: 85%;
+	text-align: center;
+}
+
+#content {
+	width: 85%;
+	margin-left: 15%;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	margin-left: 15%;
+	width: 85%;
+}
+
+#hookem {
+	position: relative;
+	left: -225px;
+	top: 100px;
+	height: 100px;
+	width: 100px;
+}
+
+#longhorn {
+	position: relative;
+	left: 235px;
+	top: 105px;
+	height: 100px;
+	width: 100px;
+}
+
+#me {
+	border-radius: 50%;
+	position: relative;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+}
+
+
+
+
