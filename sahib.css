@@ -124,5 +124,17 @@ li {
 }
 
 
+#pen {
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
 
+#mouse {
+	margin-bottom: 3px;
+}
+
+#ink {
+	margin-bottom: 3px;
+}
 
