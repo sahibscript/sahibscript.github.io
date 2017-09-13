@@ -36,9 +36,9 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
+/*a:hover {
     color: darkorange;
-}
+}*/
 
 /* selected link */
 a:active {
